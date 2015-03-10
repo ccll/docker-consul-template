@@ -7,4 +7,4 @@ RUN cd /tmp && tar xzf consul-template.tar.gz
 RUN mv tmp/consul-template_${VERSION}_linux_amd64/consul-template /usr/local/bin/consul-template
 RUN cd /tmp && rm -rf /tmp/*
 
-CMD ['consul-template', '-h']
+CMD ["consul-template", "-h"]
